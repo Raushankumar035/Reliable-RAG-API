@@ -1,0 +1,17 @@
+services:
+  api:
+    build: .
+    image: reliable-rag-api
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    environment:
+      # inside the container the vector DB lives on the named volume below
+      CHROMA_PERSIST_DIR: /app/storage/chroma
+    volumes:
+      - chroma_data:/app/storage
+    restart: unless-stopped
+
+volumes:
+  chroma_data:

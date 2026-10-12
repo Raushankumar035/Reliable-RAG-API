@@ -1,0 +1,183 @@
+[
+  {
+    "id": "q01",
+    "category": "answerable",
+    "question": "How many days of paid annual leave does a full-time employee get per year?",
+    "answerable": true,
+    "expected_sources": [
+      "employee_handbook.md"
+    ],
+    "expected_keywords": [
+      "24"
+    ]
+  },
+  {
+    "id": "q02",
+    "category": "answerable",
+    "question": "What is the minimum password length required by the security policy?",
+    "answerable": true,
+    "expected_sources": [
+      "it_security_policy.txt"
+    ],
+    "expected_keywords": [
+      "14"
+    ]
+  },
+  {
+    "id": "q03",
+    "category": "answerable",
+    "question": "How much does the Growth plan cost per user per month?",
+    "answerable": true,
+    "expected_sources": [
+      "product_faq.md"
+    ],
+    "expected_keywords": [
+      "79"
+    ]
+  },
+  {
+    "id": "q04",
+    "category": "answerable",
+    "question": "How long is the free trial for Helio Insights?",
+    "answerable": true,
+    "expected_sources": [
+      "product_faq.md"
+    ],
+    "expected_keywords": [
+      "14"
+    ]
+  },
+  {
+    "id": "q05",
+    "category": "answerable",
+    "question": "What are the core working hours employees must be available?",
+    "answerable": true,
+    "expected_sources": [
+      "employee_handbook.md"
+    ],
+    "expected_keywords": [
+      "11",
+      "16"
+    ]
+  },
+  {
+    "id": "q06",
+    "category": "answerable",
+    "question": "At what time should a new joiner collect their laptop on day one?",
+    "answerable": true,
+    "expected_sources": [
+      "onboarding_guide.pdf"
+    ],
+    "expected_keywords": [
+      "10"
+    ]
+  },
+  {
+    "id": "q07",
+    "category": "multi_evidence",
+    "question": "What security training must a new employee complete, how soon after joining must it be done, and how often is it repeated afterwards?",
+    "answerable": true,
+    "expected_sources": [
+      "onboarding_guide.pdf",
+      "it_security_policy.txt"
+    ],
+    "expected_keywords": [
+      "7",
+      "annual|year"
+    ]
+  },
+  {
+    "id": "q08",
+    "category": "multi_evidence",
+    "question": "Which Helio Insights plans support SSO, and what is the API rate limit of the cheaper of those plans?",
+    "answerable": true,
+    "expected_sources": [
+      "product_faq.md"
+    ],
+    "expected_keywords": [
+      "Growth",
+      "600"
+    ]
+  },
+  {
+    "id": "q09",
+    "category": "multi_evidence",
+    "question": "Compare the data retention and support options of the Starter and Enterprise plans.",
+    "answerable": true,
+    "expected_sources": [
+      "product_faq.md"
+    ],
+    "expected_keywords": [
+      "90",
+      "7",
+      "email",
+      "phone"
+    ]
+  },
+  {
+    "id": "q10",
+    "category": "multi_evidence",
+    "question": "If I spend INR 12,000 on a client dinner while travelling, whose approval do I need and within how many days must I submit the claim?",
+    "answerable": true,
+    "expected_sources": [
+      "employee_handbook.md"
+    ],
+    "expected_keywords": [
+      "manager",
+      "30"
+    ]
+  },
+  {
+    "id": "q11",
+    "category": "multi_evidence",
+    "question": "How many days of sick leave do employees get, and how long is the notice period after probation?",
+    "answerable": true,
+    "expected_sources": [
+      "employee_handbook.md"
+    ],
+    "expected_keywords": [
+      "10",
+      "60"
+    ]
+  },
+  {
+    "id": "q12",
+    "category": "unanswerable",
+    "question": "What is the stock option vesting schedule at Helio Systems?",
+    "answerable": false,
+    "expected_sources": [],
+    "expected_keywords": []
+  },
+  {
+    "id": "q13",
+    "category": "unanswerable",
+    "question": "Does Helio Insights offer an on-premise deployment option?",
+    "answerable": false,
+    "expected_sources": [],
+    "expected_keywords": []
+  },
+  {
+    "id": "q14",
+    "category": "unanswerable",
+    "question": "Who is the CEO of Helio Systems?",
+    "answerable": false,
+    "expected_sources": [],
+    "expected_keywords": []
+  },
+  {
+    "id": "q15",
+    "category": "unanswerable",
+    "question": "What is the capital of France?",
+    "answerable": false,
+    "expected_sources": [],
+    "expected_keywords": []
+  },
+  {
+    "id": "q16",
+    "category": "unanswerable",
+    "question": "What dental insurance coverage do employees receive?",
+    "answerable": false,
+    "expected_sources": [],
+    "expected_keywords": []
+  }
+]

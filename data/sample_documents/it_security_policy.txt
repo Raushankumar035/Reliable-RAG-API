@@ -1,0 +1,21 @@
+HELIO SYSTEMS - INFORMATION SECURITY POLICY
+Version 3.2
+
+1. PASSWORDS AND AUTHENTICATION
+All employee passwords must be at least 14 characters long and must not be reused across systems. Multi-factor authentication (MFA) is mandatory for email, the VPN, the source-code repository and the cloud console. Passwords are rotated only when a compromise is suspected, not on a fixed schedule.
+
+2. DEVICES
+All company laptops must use full-disk encryption and automatic screen lock after 5 minutes of inactivity. A lost or stolen device must be reported to the security team within 2 hours of discovery by emailing security@helio.example. The security team will remotely wipe the device.
+Personal devices may not store Confidential or Restricted data.
+
+3. NETWORK ACCESS
+Employees must connect through the company VPN whenever they use public Wi-Fi, for example in airports, cafes or hotels. Use of unapproved file-sharing services for company data is prohibited.
+
+4. DATA CLASSIFICATION
+Company data is classified into four levels: Public, Internal, Confidential and Restricted. Customer personal data is always Restricted. Restricted data may only be accessed by named individuals and every access is logged.
+
+5. SECURITY TRAINING
+All employees must complete security awareness training once every year. Failure to complete the annual training within 30 days of the due date results in suspension of system access until the training is done.
+
+6. INCIDENT RESPONSE
+Any suspected security incident must be reported immediately to security@helio.example. The security team acknowledges incident reports within 1 hour during business days.
